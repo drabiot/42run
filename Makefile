@@ -6,7 +6,7 @@
 #    By: tchartie <tchartie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/23 16:10:41 by tchartie          #+#    #+#              #
-#    Updated: 2026/01/23 16:15:23 by tchartie         ###   ########.fr        #
+#    Updated: 2026/01/23 16:42:05 by tchartie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,7 +65,9 @@ WHITE			=	\033[0;97m
 
 SRC_DIR 		= 	src/
 SRC_NAME 		=	main.cpp \
-					ft_glm.cpp
+					glad/glad.cpp \
+					ft_glm.cpp \
+					utils.cpp
 
 OBJ_DIR 		=	obj/
 OBJ_NAME		=	$(SRC_NAME:.cpp=.o)

@@ -6,7 +6,7 @@
 /*   By: tchartie <tchartie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 16:13:08 by tchartie          #+#    #+#             */
-/*   Updated: 2026/01/23 16:13:39 by tchartie         ###   ########.fr       */
+/*   Updated: 2026/01/23 16:45:28 by tchartie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@
 # include "glfw3.h"
 # include "ft_glm.hpp"
 
-# include "color.hpp"	
+# include "color.hpp"
 
 # define AND	<<
 # define PRINT	std::cout AND
@@ -48,5 +48,10 @@ typedef std::string str;
 
 extern int	WD_WIDTH;
 extern int	WD_HEIGHT;
+extern str	WD_NAME;
+
+void	initWindow(GLFWwindow **window);
+void	initGlad();
+void    opengErrorMsg(GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar *message, const void *userParam);
 
 #endif //UTILS_HPP
