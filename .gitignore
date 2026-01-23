@@ -1,0 +1,5 @@
+GLFW
+inc/glad
+src/glad
+obj
+42run
