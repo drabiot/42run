@@ -40,6 +40,8 @@ int	main(void) {
 			prevTime = crntTime;
 			counter = 0;
 		}
+
+		glfwPollEvents();
 	}
 	
 	glfwDestroyWindow(window);

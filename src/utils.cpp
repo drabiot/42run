@@ -16,9 +16,9 @@ void	initWindow(GLFWwindow **window) {
 	//Initialize GLFW
 	glfwInit();
 	
-	//Tell GLFW that we use version 3.3 of OpenGL
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+	//Tell GLFW that we use version 4.0 of OpenGL
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 	
 	glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE);
 		
