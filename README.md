@@ -69,7 +69,7 @@ The Goal of the project is to create a small program that will present an endles
 
 | Utility | Key |
 | ----------------- | ------------------------------------------------------------------ |
-| Move | W-A-S-D |
+| Move | ⬅️-➡️ |
 | Pause the Game | P |
 
 
