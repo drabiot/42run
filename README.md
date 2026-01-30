@@ -7,7 +7,7 @@
 
 42run is a Graphic & Gaming specialty project of 42 that is a basic Endless Runner Game, like Temple Run, render by OpenGL.
 
-This mini project is a the next step towards using OpenGL and is the continuation of ![scop](https://github.com/drabiot/scop).
+This mini project is a the next step towards using OpenGL and is the continuation of [scop](https://github.com/drabiot/scop).
 
 ![Static Badge](https://img.shields.io/badge/os-linux-orange)
 ![Static Badge](https://img.shields.io/badge/language-c%2B%2B17-blue)
