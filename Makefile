@@ -6,7 +6,7 @@
 #    By: tchartie <tchartie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/23 16:10:41 by tchartie          #+#    #+#              #
-#    Updated: 2026/01/23 16:42:05 by tchartie         ###   ########.fr        #
+#    Updated: 2026/05/11 19:34:38 by tchartie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -67,6 +67,8 @@ SRC_DIR 		= 	src/
 SRC_NAME 		=	main.cpp \
 					glad/glad.cpp \
 					ft_glm.cpp \
+					Shader.cpp \
+					Mesh.cpp \
 					utils.cpp
 
 OBJ_DIR 		=	obj/

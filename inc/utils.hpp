@@ -6,7 +6,7 @@
 /*   By: tchartie <tchartie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 16:13:08 by tchartie          #+#    #+#             */
-/*   Updated: 2026/01/23 16:55:53 by tchartie         ###   ########.fr       */
+/*   Updated: 2026/05/11 20:02:14 by tchartie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,6 @@
 # include <algorithm> 
 # include <cstring>
 
-# include "glad.h"
-# include "glfw3.h"
-# include "ft_glm.hpp"
-
 # include "color.hpp"
 
 # define AND	<<
@@ -46,6 +42,14 @@ typedef std::string str;
 # define cref(type) const type &
 # define ref(type) type &
 
+# include "glad.h"
+# include "glfw3.h"
+# include "ft_glm.hpp"
+# include "Shader.hpp"
+# include "Mesh.hpp"
+
+struct	Vertex;
+
 extern int	WD_WIDTH;
 extern int	WD_HEIGHT;
 extern str	WD_NAME;
@@ -53,5 +57,8 @@ extern str	WD_NAME;
 void	initWindow(GLFWwindow **window);
 void	initGlad();
 void    opengErrorMsg(GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar *message, const void *userParam);
+
+//Testing
+std::vector<Vertex>	makeCube();
 
 #endif //UTILS_HPP
