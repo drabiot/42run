@@ -6,7 +6,7 @@
 /*   By: tchartie <tchartie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 16:13:08 by tchartie          #+#    #+#             */
-/*   Updated: 2026/05/11 20:02:14 by tchartie         ###   ########.fr       */
+/*   Updated: 2026/10/06 14:12:42 by tchartie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,8 @@ struct	Vertex;
 extern int	WD_WIDTH;
 extern int	WD_HEIGHT;
 extern str	WD_NAME;
+
+extern bool	PAUSE;
 
 void	initWindow(GLFWwindow **window);
 void	initGlad();

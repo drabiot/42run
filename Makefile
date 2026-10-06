@@ -6,7 +6,7 @@
 #    By: tchartie <tchartie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/23 16:10:41 by tchartie          #+#    #+#              #
-#    Updated: 2026/05/11 19:34:38 by tchartie         ###   ########.fr        #
+#    Updated: 2026/10/06 14:27:00 by tchartie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,6 +69,8 @@ SRC_NAME 		=	main.cpp \
 					ft_glm.cpp \
 					Shader.cpp \
 					Mesh.cpp \
+					Camera.cpp \
+					Player.cpp \
 					utils.cpp
 
 OBJ_DIR 		=	obj/

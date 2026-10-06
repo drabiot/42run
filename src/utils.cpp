@@ -6,7 +6,7 @@
 /*   By: tchartie <tchartie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 16:41:16 by tchartie          #+#    #+#             */
-/*   Updated: 2026/05/11 19:33:49 by tchartie         ###   ########.fr       */
+/*   Updated: 2026/10/06 14:02:25 by tchartie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ void    opengErrorMsg(GLenum source, GLenum type, GLuint id, GLenum severity, GL
 			severityColor =  RED;
 			break;
 		default:
-			return ; //these are notifications and not really important
+			return ;
 			severityColor =  WHITE;
 	}
 
